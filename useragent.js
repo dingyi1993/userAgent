@@ -54,12 +54,12 @@
     if (/ipad/i.test(ua)) {
         result.detail.device.name = 'iPad';
         result.isIPad = true;
-    } else if (/iphone/i.test(ua)) {
-        result.detail.device.name = 'iPhone';
-        result.isIPhone = true;
     } else if (/ipod/i.test(ua)) {
         result.detail.device.name = 'iPod';
         result.isIPod = true;
+    } else if (/iphone/i.test(ua)) {
+        result.detail.device.name = 'iPhone';
+        result.isIPhone = true;
     } else if (/mac os x/i.test(ua)) {
         result.detail.device.name = 'Mac';
         result.isMac = true;
